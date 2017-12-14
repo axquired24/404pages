@@ -1,0 +1,40 @@
+@primary-color : rgb(0, 86, 245);
+@secondary-color : rgb(51, 57, 71);
+@link-color1: rgba(16, 59, 93, 0.5);
+@hover-color1: rgba(16, 59, 93, 0.8);
+
+body {
+    background: #FFF;
+}
+
+img {
+    margin-top: 80px;
+}
+
+.pagetext {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: @secondary-color;
+    line-height: 2em;
+    
+    .dropcaps {
+        font-size: 50px;
+        padding: 20px;
+        color: @primary-color;
+        margin-bottom: 20px;
+    }
+
+    .subtext {
+        font-size: 15px;
+        color: rgb(109, 109, 109);
+
+        a:link, a:visited {
+            text-decoration: none;
+            color: @primary-color;
+            border-bottom: @link-color1 2px dotted;
+        } 
+        a:hover {
+            border-bottom: @hover-color1 2px dotted;
+        } 
+    }
+}

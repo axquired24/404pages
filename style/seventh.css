@@ -1,0 +1,31 @@
+body {
+  background: #FFF;
+}
+img {
+  margin-top: 80px;
+}
+.pagetext {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: #333947;
+  line-height: 2em;
+}
+.pagetext .dropcaps {
+  font-size: 50px;
+  padding: 20px;
+  color: #0056f5;
+  margin-bottom: 20px;
+}
+.pagetext .subtext {
+  font-size: 15px;
+  color: #6d6d6d;
+}
+.pagetext .subtext a:link,
+.pagetext .subtext a:visited {
+  text-decoration: none;
+  color: #0056f5;
+  border-bottom: rgba(16, 59, 93, 0.5) 2px dotted;
+}
+.pagetext .subtext a:hover {
+  border-bottom: rgba(16, 59, 93, 0.8) 2px dotted;
+}

@@ -1,0 +1,35 @@
+@primary-color : rgb(16, 59, 93);
+body {
+    background: #FFF;
+}
+
+img {
+    margin-top: 100px;
+}
+
+.pagetext {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: @primary-color;
+    line-height: 2em;
+    
+    .dropcaps {
+        font-size: 50px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .subtext {
+        font-size: 15px;
+        color: rgb(109, 109, 109);
+
+        a:link, a:visited {
+            text-decoration: none;
+            color: @primary-color;
+            border-bottom: rgba(16, 59, 93, 0.5) 2px dotted;
+        } 
+        a:hover {
+            border-bottom: rgba(16, 59, 93, 0.8) 2px dotted;
+        } 
+    }
+}
